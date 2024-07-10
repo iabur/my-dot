@@ -1,8 +1,6 @@
 # iabur
 
-This Neovim Keyboard Shortcuts Documentation, aimed at providing a comprehensive list of useful keymaps and settings to enhance your Neovim experience.
-
-## Table of Contents
+## Table of Contents (Neovim)
 
 - [General Keymaps](#general-keymaps)
 - [Completion and Suggestions](#completion-and-suggestions)
