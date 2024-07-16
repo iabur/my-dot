@@ -23,9 +23,9 @@ exec_always --no-startup-id setxkbmap -option ctrl:nocaps
 # exec_always killall polybar
 # exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 
-bindsym Print exec maim "/home/$USER/Pictures/$(date).jpg"
-bindsym $mod+Print exec maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date).jpg"
-bindsym Shift+Print exec maim --select "/home/$USER/Pictures/$(date).jpg"
+# bindsym Print exec maim "/home/$USER/Pictures/$(date).jpg"
+# bindsym $mod+Print exec maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date).jpg"
+# bindsym Shift+Print exec maim --select "/home/$USER/Pictures/$(date).jpg"
 
 ## Clipboard Screenshots
 bindsym Ctrl+Print exec maim | xclip -selection clipboard -t image/png
@@ -246,3 +246,6 @@ bar {
         -t dracula-powerline
     position bottom
 }
+
+# add flameshot for screen shot
+bindsym Print exec flameshot gui
